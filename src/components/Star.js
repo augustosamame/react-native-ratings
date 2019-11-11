@@ -39,7 +39,7 @@ export default class Star extends PureComponent {
 
   render() {
     const { fill, size, selectedColor, isDisabled, starStyle } = this.props;
-    const starSource = fill && selectedColor === null ? STAR_SELECTED_IMAGE : STAR_IMAGE;
+    const starSource = fill ? STAR_SELECTED_IMAGE : STAR_IMAGE;
 
     return (
       <TouchableOpacity activeOpacity={1} onPress={this.spring.bind( this )} disabled={isDisabled}>
@@ -48,7 +48,6 @@ export default class Star extends PureComponent {
           style={[
             styles.starStyle,
             {
-              tintColor: fill && selectedColor ? selectedColor : undefined,
               width: size || STAR_SIZE,
               height: size || STAR_SIZE,
               transform: [{ scale: this.springValue }]
