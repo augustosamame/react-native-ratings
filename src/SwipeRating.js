@@ -255,7 +255,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f6f6f6',
   },
   starsInsideWrapper: {
     position: 'absolute',
@@ -266,14 +265,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f6f6f6',
   },
   showRatingView: {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
     paddingBottom: 5,
-    backgroundColor: '#f6f6f6',
   },
   ratingView: {
     flexDirection: 'row',
@@ -286,9 +283,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontFamily: Platform.OS === 'ios' ? 'Trebuchet MS' : null,
     color: '#34495e'
-  },
-  starContainer: {
-    backgroundColor: '#f6f6f6',
   },
     readonlyLabel: {
     justifyContent: 'center',
