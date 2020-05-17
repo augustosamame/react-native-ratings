@@ -3,8 +3,8 @@ import times from 'lodash/times';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { 
-  View, Text, Animated, PanResponder, Image, 
+import {
+  View, Text, Animated, PanResponder, Image,
   StyleSheet, Platform, ViewPropTypes
 } from 'react-native';
 
@@ -255,6 +255,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: 'f6f6f6',
   },
   starsInsideWrapper: {
     position: 'absolute',
@@ -265,6 +266,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: 'f6f6f6',
   },
   showRatingView: {
     flexDirection: 'column',
