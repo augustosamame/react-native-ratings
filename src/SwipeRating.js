@@ -255,7 +255,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'f6f6f6',
+    backgroundColor: '#f6f6f6',
   },
   starsInsideWrapper: {
     position: 'absolute',
@@ -266,7 +266,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'f6f6f6',
+    backgroundColor: '#f6f6f6',
   },
   showRatingView: {
     flexDirection: 'column',
