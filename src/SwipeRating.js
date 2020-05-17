@@ -18,22 +18,22 @@ const TYPES = {
   star: {
     source: STAR_IMAGE,
     color: '#f1c40f',
-    backgroundColor: 'white'
+    backgroundColor: '#f6f6f6'
   },
   heart: {
     source: HEART_IMAGE,
     color: '#e74c3c',
-    backgroundColor: 'white'
+    backgroundColor: '#f6f6f6'
   },
   rocket: {
     source: ROCKET_IMAGE,
     color: '#2ecc71',
-    backgroundColor: 'white'
+    backgroundColor: '#f6f6f6'
   },
   bell: {
     source: BELL_IMAGE,
     color: '#f39c12',
-    backgroundColor: 'white'
+    backgroundColor: '#f6f6f6'
   }
 };
 
@@ -272,7 +272,8 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    paddingBottom: 5
+    paddingBottom: 5,
+    backgroundColor: '#f6f6f6',
   },
   ratingView: {
     flexDirection: 'row',
@@ -286,7 +287,10 @@ const styles = StyleSheet.create({
     fontFamily: Platform.OS === 'ios' ? 'Trebuchet MS' : null,
     color: '#34495e'
   },
-  readonlyLabel: {
+  starContainer: {
+    backgroundColor: '#f6f6f6',
+  },
+    readonlyLabel: {
     justifyContent: 'center',
     alignItems: 'center',
     fontSize: 12,
